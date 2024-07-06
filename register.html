@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript" src="register.js"></script>
+</head>
+<body>
+    <div class="main">
+        <center>
+            <h1><u>SIGNUP</u></h1>
+        </center>
+        <hr>
+        <form>
+            <div>
+                <center>
+                    <input type="email" id="email" name="email" placeholder="Enter Email Here" required>
+                    <input type="password" id="password" name="password" placeholder="Enter Password Here" required>
+                    <input type="date" id="date" name="date" required>
+                </center>
+            </div>
+            <div>
+                <center>
+                    <h6>Agree to the terms and conditions</h6>
+                    <input type="checkbox" id="checkbox" name="checkbox" required>
+                </center>
+            </div>
+            <div>
+                <center>
+                    <select name="gender" id="gender" required>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="others">others</option>
+                    </select>
+                </center>
+            </div>
+            <div>
+                <center>
+                    <textarea name="feedback" id="feedback" placeholder="Enter your Feedback here" required></textarea>
+                </center>
+            </div>
+            <center>
+                <button>
+                    <input type="submit" onclick="handlesubmit(event)" />
+                </button>
+            </center>
+        </form>
+    </div>
+</body>
+</html>
